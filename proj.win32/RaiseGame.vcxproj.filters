@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Title">
+      <UniqueIdentifier>{cd3be714-e76c-4ac3-a08b-3c024681fe45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tutorial">
+      <UniqueIdentifier>{e74bef14-2529-4897-a974-20ce4ee3b5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Game">
+      <UniqueIdentifier>{2c7d6983-87f9-4c7e-b479-8430388965ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\RewardLayer.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\UpgradeLayer.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameLayer.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameScene.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tutorial\TutorialLayer.cpp">
+      <Filter>src\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Title\MoregameLayer.cpp">
+      <Filter>src\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Title\OptionLayer.cpp">
+      <Filter>src\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Title\TitleLayer.cpp">
+      <Filter>src\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Title\TitleScene.cpp">
+      <Filter>src\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Game\GameMaster.cpp">
+      <Filter>src\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\RewardLayer.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\UpgradeLayer.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameLayer.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameScene.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tutorial\TutorialLayer.h">
+      <Filter>src\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Title\MoregameLayer.h">
+      <Filter>src\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Title\OptionLayer.h">
+      <Filter>src\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Title\TitleLayer.h">
+      <Filter>src\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Title\TitleScene.h">
+      <Filter>src\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Game\GameMaster.h">
+      <Filter>src\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
